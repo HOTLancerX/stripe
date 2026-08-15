@@ -2,7 +2,7 @@ import { addHook, type PluginMeta } from "@/hook";
 import StripeSettings from "./settings/StripeSettings";
 
 export const PLUGINS: PluginMeta = {
-    nx: "com.system.stripe",
+    nx: "stripe",
     name: "stripe",
     version: "1.0.0",
     description: "Stripe payment gateway — secure online card payments with redirect checkout flow.",
