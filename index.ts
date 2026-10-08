@@ -7,7 +7,7 @@ export const PLUGINS: PluginMeta = {
     version: "1.0.0",
     description: "Stripe payment gateway — secure online card payments with redirect checkout flow.",
     author: "System",
-    path: "",
+    path: "https://github.com/HOTLancerX/stripe.git",
     icon: "mdi:credit-card-outline",
     color: "from-indigo-500 to-blue-600",
 };

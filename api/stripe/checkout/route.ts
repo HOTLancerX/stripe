@@ -114,7 +114,7 @@ export async function POST(req: NextRequest) {
             success_url: `${origin}/order-confirmation/${orderNumber}?session_id={CHECKOUT_SESSION_ID}`,
             cancel_url: `${origin}/checkout?canceled=true`,
             metadata: { orderNumber },
-        });
+        } as any);
 
         await orders.updateOne(
             { orderNumber },
